@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import 'tachyons';
+
 import * as serviceWorker from './serviceWorker';
+import './index.css';
+import App from './components/app/App'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App title='RoboFriends'/>
   </React.StrictMode>,
   document.getElementById('root')
 );
