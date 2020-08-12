@@ -2,13 +2,14 @@
     overflow-y: auto;
     height: 800px;
 }
-::-webkit-scrollbar {
+.scrollable::-webkit-scrollbar {
     width: 4px;
+    height: 4px;
 }
-::-webkit-scrollbar-thumb {
-    background: #888;
+.scrollable::-webkit-scrollbar-thumb {
+    background: #008080;
     border-radius: 20px;
 }
-::-webkit-scrollbar-thumb:hover {
-    background: #9eebcf;
+.scrollable::-webkit-scrollbar-thumb:hover {
+    background: #4cb0af;
 }
