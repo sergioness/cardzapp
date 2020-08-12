@@ -8,7 +8,7 @@ import App from './components/app/App'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App title='RoboFriends'/>
+    <App title='Cardzapp'/>
   </React.StrictMode>,
   document.getElementById('root')
 );

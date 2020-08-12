@@ -1,7 +1,8 @@
 import React from 'react';
 import List from '../list/List';
 import Searchbox from '../searchbox/Searchbox';
-import { robots } from '../../model/data'
+import Scrollable from '../scrollable/Scrollable';
+import ErrorBoundry from '../errorboundry/ErrorBoundry';
 import './App.css';
 
 class App extends React.Component {
@@ -9,7 +10,7 @@ class App extends React.Component {
         super();
         this.state = {
             searchString: '',
-            dataList: robots
+            dataList: []
         };
     }
 
@@ -26,14 +27,24 @@ class App extends React.Component {
         });
     }
 
+    componentDidMount() {
+        fetch('https://jsonplaceholder.typicode.com/users')
+        .then(response => response.json())
+        .then(json => this.setState({dataList: json}));
+    }
+
     render() {
         const filteredDataList = this.filter(this.state.dataList, this.state.searchString);
         return (
             <React.Fragment>
                 <div className='tc'>
                     <h1 className='f1'>{this.props.title}</h1>
-                    <Searchbox onSearch={this.onSearchChange}/>
-                    <List values={filteredDataList}/>
+                    <ErrorBoundry>
+                        <Searchbox onSearch={this.onSearchChange}/>
+                        <Scrollable>
+                            <List values={filteredDataList}/>
+                        </Scrollable>
+                    </ErrorBoundry>
                 </div>
             </React.Fragment>
         );
