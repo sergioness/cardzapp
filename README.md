@@ -1,5 +1,6 @@
 # cardzapp
-This application allows you to search for users and get their brief info in form of neat small cards.
+This application allows you to search for users and get their brief info in form of neat small cards.<br/>
+The deployed interactive version of this application is available on [https://sergioness.github.io/cardzapp/](https://sergioness.github.io/cardzapp/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
