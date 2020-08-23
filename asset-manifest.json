@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cardzapp/static/css/main.f4a68dfe.chunk.css",
-    "main.js": "/cardzapp/static/js/main.24320e90.chunk.js",
-    "main.js.map": "/cardzapp/static/js/main.24320e90.chunk.js.map",
+    "main.js": "/cardzapp/static/js/main.c493a195.chunk.js",
+    "main.js.map": "/cardzapp/static/js/main.c493a195.chunk.js.map",
     "runtime-main.js": "/cardzapp/static/js/runtime-main.0044954a.js",
     "runtime-main.js.map": "/cardzapp/static/js/runtime-main.0044954a.js.map",
     "static/css/2.3c03f26f.chunk.css": "/cardzapp/static/css/2.3c03f26f.chunk.css",
     "static/js/2.92ae53df.chunk.js": "/cardzapp/static/js/2.92ae53df.chunk.js",
     "static/js/2.92ae53df.chunk.js.map": "/cardzapp/static/js/2.92ae53df.chunk.js.map",
     "index.html": "/cardzapp/index.html",
-    "precache-manifest.48aa7bb217031baf3e3917727d2efe69.js": "/cardzapp/precache-manifest.48aa7bb217031baf3e3917727d2efe69.js",
+    "precache-manifest.2ab2366908f7e64ae51b1ac21e63b11b.js": "/cardzapp/precache-manifest.2ab2366908f7e64ae51b1ac21e63b11b.js",
     "service-worker.js": "/cardzapp/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/cardzapp/static/css/2.3c03f26f.chunk.css.map",
     "static/css/main.f4a68dfe.chunk.css.map": "/cardzapp/static/css/main.f4a68dfe.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.92ae53df.chunk.js",
     "static/css/main.f4a68dfe.chunk.css",
-    "static/js/main.24320e90.chunk.js"
+    "static/js/main.c493a195.chunk.js"
   ]
 }

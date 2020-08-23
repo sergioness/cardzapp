@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bccffdd56f5b471289eaf4dc02b4d809",
+    "revision": "9b920fc2f14a83d3228d60f3cb47c1b0",
     "url": "/cardzapp/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cardzapp/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "d901c4874c1f6ebe72b8",
+    "revision": "448443b7a1ad1fe7fccb",
     "url": "/cardzapp/static/css/main.f4a68dfe.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cardzapp/static/js/2.92ae53df.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d901c4874c1f6ebe72b8",
-    "url": "/cardzapp/static/js/main.24320e90.chunk.js"
+    "revision": "448443b7a1ad1fe7fccb",
+    "url": "/cardzapp/static/js/main.c493a195.chunk.js"
   },
   {
     "revision": "131cc635ac2610849e96",
