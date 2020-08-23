@@ -13,7 +13,7 @@ import * as reducers from "./reducers";
 
 const logger = createLogger();
 const rootReducer = combineReducers(reducers);
-const store = createStore(rootReducer, applyMiddleware(thunk, logger));
+const store = createStore(rootReducer, applyMiddleware(thunk/*, logger*/));
 
 ReactDOM.render(
   <React.StrictMode>
