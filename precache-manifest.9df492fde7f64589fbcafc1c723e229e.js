@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b920fc2f14a83d3228d60f3cb47c1b0",
+    "revision": "ba69db957b6cc60e003d4c6708a50b6a",
     "url": "/cardzapp/index.html"
   },
   {
