@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import 'tachyons';
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware, combineReducers } from 'redux';
-import { createLogger } from 'redux-logger';
+// import { createLogger } from 'redux-logger';
 import thunk from 'redux-thunk';
 
 import * as serviceWorker from './serviceWorker';
@@ -11,7 +11,7 @@ import './index.css';
 import App from './components/app/App'
 import * as reducers from "./reducers";
 
-const logger = createLogger();
+// const logger = createLogger();
 const rootReducer = combineReducers(reducers);
 const store = createStore(rootReducer, applyMiddleware(thunk/*, logger*/));
 
