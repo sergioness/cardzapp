@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/cardzapp/static/css/main.9933eada.chunk.css",
-    "main.js": "/cardzapp/static/js/main.8ba5b2a1.chunk.js",
-    "main.js.map": "/cardzapp/static/js/main.8ba5b2a1.chunk.js.map",
+    "main.js": "/cardzapp/static/js/main.0574aa2f.chunk.js",
+    "main.js.map": "/cardzapp/static/js/main.0574aa2f.chunk.js.map",
     "runtime-main.js": "/cardzapp/static/js/runtime-main.0044954a.js",
     "runtime-main.js.map": "/cardzapp/static/js/runtime-main.0044954a.js.map",
     "static/css/2.3c03f26f.chunk.css": "/cardzapp/static/css/2.3c03f26f.chunk.css",
-    "static/js/2.92ae53df.chunk.js": "/cardzapp/static/js/2.92ae53df.chunk.js",
-    "static/js/2.92ae53df.chunk.js.map": "/cardzapp/static/js/2.92ae53df.chunk.js.map",
+    "static/js/2.ce82edc2.chunk.js": "/cardzapp/static/js/2.ce82edc2.chunk.js",
+    "static/js/2.ce82edc2.chunk.js.map": "/cardzapp/static/js/2.ce82edc2.chunk.js.map",
     "index.html": "/cardzapp/index.html",
-    "precache-manifest.ddab391440b0f8d8299e551d9d9564f6.js": "/cardzapp/precache-manifest.ddab391440b0f8d8299e551d9d9564f6.js",
+    "precache-manifest.c3da75b64042ee25aece9ac736196927.js": "/cardzapp/precache-manifest.c3da75b64042ee25aece9ac736196927.js",
     "service-worker.js": "/cardzapp/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/cardzapp/static/css/2.3c03f26f.chunk.css.map",
     "static/css/main.9933eada.chunk.css.map": "/cardzapp/static/css/main.9933eada.chunk.css.map",
-    "static/js/2.92ae53df.chunk.js.LICENSE.txt": "/cardzapp/static/js/2.92ae53df.chunk.js.LICENSE.txt",
+    "static/js/2.ce82edc2.chunk.js.LICENSE.txt": "/cardzapp/static/js/2.ce82edc2.chunk.js.LICENSE.txt",
     "static/media/Header.css": "/cardzapp/static/media/SEGA.12a3db8b.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.0044954a.js",
     "static/css/2.3c03f26f.chunk.css",
-    "static/js/2.92ae53df.chunk.js",
+    "static/js/2.ce82edc2.chunk.js",
     "static/css/main.9933eada.chunk.css",
-    "static/js/main.8ba5b2a1.chunk.js"
+    "static/js/main.0574aa2f.chunk.js"
   ]
 }
