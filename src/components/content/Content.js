@@ -4,7 +4,6 @@ import List from '../list/List';
 import Searchbox from '../searchbox/Searchbox';
 import Scrollable from '../scrollable/Scrollable';
 import ErrorBoundry from '../errorboundry/ErrorBoundry';
-import './Content.css';
 import { setSearchField, requestData } from '../../actions';
 
 const mapStateToProps = (state) => {
