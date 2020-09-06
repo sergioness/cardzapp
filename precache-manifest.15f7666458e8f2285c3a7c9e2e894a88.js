@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "feaff16f5f674edf36fcb5a4f587d9bd",
+    "revision": "acaadd2a47c042006aeffb616cedd07c",
     "url": "/cardzapp/index.html"
   },
   {
-    "revision": "bf29d0eb24f0347e40ef",
+    "revision": "2825e5260bc8dc0f0f10",
     "url": "/cardzapp/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "0205eb1c80aca6f67ca3",
+    "revision": "9469e49106d0b3979128",
     "url": "/cardzapp/static/css/main.9933eada.chunk.css"
   },
   {
-    "revision": "bf29d0eb24f0347e40ef",
-    "url": "/cardzapp/static/js/2.ce82edc2.chunk.js"
+    "revision": "2825e5260bc8dc0f0f10",
+    "url": "/cardzapp/static/js/2.4e3eb710.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/cardzapp/static/js/2.ce82edc2.chunk.js.LICENSE.txt"
+    "url": "/cardzapp/static/js/2.4e3eb710.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0205eb1c80aca6f67ca3",
-    "url": "/cardzapp/static/js/main.0574aa2f.chunk.js"
+    "revision": "9469e49106d0b3979128",
+    "url": "/cardzapp/static/js/main.d715b4d5.chunk.js"
   },
   {
     "revision": "131cc635ac2610849e96",

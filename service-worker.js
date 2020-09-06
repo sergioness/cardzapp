@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cardzapp/precache-manifest.c3da75b64042ee25aece9ac736196927.js"
+  "/cardzapp/precache-manifest.15f7666458e8f2285c3a7c9e2e894a88.js"
 );
 
 self.addEventListener('message', (event) => {
