@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component 'List' shallow matches the snapshot 1`] = `
+<Fragment>
+  <Card
+    info={
+      Object {
+        "email": "card@card.com",
+        "id": 0,
+        "name": "dummy card",
+      }
+    }
+    key="0"
+  />
+</Fragment>
+`;

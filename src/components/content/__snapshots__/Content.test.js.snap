@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component 'Content' should shallowly match its snapshot 1`] = `
+<ErrorBoundry
+  className="tc"
+>
+  <Searchbox />
+  <Scrollable>
+    <List
+      values={Array []}
+    />
+  </Scrollable>
+</ErrorBoundry>
+`;

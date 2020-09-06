@@ -1,11 +1,13 @@
 import React from 'react';
 import './Scrollable.css';
 
-const Scrollable = (props) => {
-    return (
-        <div className='scrollable'>
-            {props.children}
-        </div>
-    );
+class Scrollable extends React.PureComponent {
+    render() {
+        return (
+            <div className='scrollable'>
+                {this.props.children}
+            </div>
+        );
+    }
 };
 export default Scrollable;

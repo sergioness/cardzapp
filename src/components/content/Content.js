@@ -1,30 +1,8 @@
 import React from 'react';
-import { connect } from "react-redux";
 import List from '../list/List';
 import Searchbox from '../searchbox/Searchbox';
 import Scrollable from '../scrollable/Scrollable';
 import ErrorBoundry from '../errorboundry/ErrorBoundry';
-import { setSearchField, requestData } from '../../actions';
-
-const mapStateToProps = (state) => {
-    return {
-        ...state.searchCard,
-        ...state.requestData
-    };
-};
-
-const mapDispatchToProps = (dispatch) => {
-    return {
-        onSearchChange: (event) => {
-            const action = setSearchField(event.target.value);
-            return dispatch(action);
-        },
-        onRequestData: () => {
-            return dispatch(requestData());
-        }
-    };
-};
-
 
 class Content extends React.Component {
 
@@ -52,4 +30,4 @@ class Content extends React.Component {
             </ErrorBoundry>);
     }
 };
-export default connect(mapStateToProps, mapDispatchToProps)(Content);
+export default Content;
