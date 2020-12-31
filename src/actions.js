@@ -1,3 +1,5 @@
+import { doFetch } from './util/fetch';
+
 export const CHANGE_SEARCH_FIELD = 'CHANGE_SEARCH_FIELD';
 
 export const setSearchField = (text) => {
@@ -15,8 +17,7 @@ export const REQUEST_DATA = {
 
 export const requestData = () => (dispatch) => {
     dispatch({type: REQUEST_DATA.PENDING});
-    fetch('https://jsonplaceholder.typicode.com/users')
-    .then(response => response.json())
+    doFetch('https://jsonplaceholder.typicode.com/users')
     .then(json => dispatch({type: REQUEST_DATA.SUCCESS, payload: json}))
     .catch(error => dispatch({type: REQUEST_DATA.FAILED, payload: error}));
 };
